@@ -1,5 +1,5 @@
 class Video {
-    private String titlu;
+    private final String titlu;
 
     public Video(String titlu) {
         this.titlu = titlu;

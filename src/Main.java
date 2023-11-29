@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Biblioteca<Media<Carte>> bibliotecaCarti = new Biblioteca<>(5);
@@ -15,5 +16,6 @@ public class Main {
         bibliotecaCarti.afiseazaContinut();
         bibliotecaVideo.afiseazaContinut();
         bibliotecaZiare.afiseazaContinut();
+
     }
 }

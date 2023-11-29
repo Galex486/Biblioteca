@@ -1,5 +1,5 @@
 class Biblioteca<T> {
-    private T[] mediaList;
+    private final T[] mediaList;
     private int index;
 
     public Biblioteca(int size) {
